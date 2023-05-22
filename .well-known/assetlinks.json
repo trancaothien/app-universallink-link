@@ -2,7 +2,7 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "com.paracel.textlive",
+    "package_name": "com.resdii.vars",
     "sha256_cert_fingerprints":
     ["58:94:75:57:09:62:58:07:EB:25:5B:28:4B:E8:52:62:E6:79:E4:A7:21:6F:80:07:A7:8B:3D:20:7B:A7:F3:D9"]
   }
