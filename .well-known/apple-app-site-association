@@ -1,10 +1,20 @@
 {
-    "applinks": {
-        "details": [
-        {
-          "appID": "R7X4348KKG.com.higuchi.jewelry",
-          "paths": ["*"]
-        }
-      ]
-    }
-  }
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "9QP729957F.com.resdii.vars" ],
+             "components": [
+               {
+                  "#": "no_universal_links",
+                  "exclude": true,
+                  "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
+               },
+               {
+                  "/": "/referCode/*",
+                  "comment": "Matches any URL with a path that starts with /referCode/."
+               }
+             ]
+           }
+       ]
+   },
+}
